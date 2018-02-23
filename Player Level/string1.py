@@ -1,2 +1,2 @@
-a=input("enter the number")
+a=input("enter the word")
 print("\n",a+".")
