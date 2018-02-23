@@ -1,3 +1,3 @@
-n=int(input())
-for x in range(n):
-	print("hello")
+num = int(input("enter no of times"))
+for i in range(1,num+1):
+    print("Hello")
