@@ -3,7 +3,7 @@ def roman(s):
     inc = 0
     for i in range(len(s)):
         if i > 0 and val[s[i]] > val[s[i - 1]]:
-                inc += val[s[i]] - 2 * val[s[i - 1]]
+                inc += val[s[i]] - 1 * val[s[i - 1]]
         else:
                 inc += val[s[i]]
     return inc
