@@ -1,5 +1,5 @@
 n=input()
 if n.isalpha():
-	print("alphabatic order")
+	print("is alphabet")
 else:
-	print("not alphabatic order")
+	print("not alphabet")
