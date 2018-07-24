@@ -1,11 +1,6 @@
-#include <stdio.h>
-int main(void) 
-{
-int hours1,hours2,mins1,mins2,hours3,mins3;
-scanf("%d %d\n",&hours1,&mins1);
-scanf("%d %d\n",&hours2,&mins2);
-hours3=abs(hours1-hours2);
-mins3=abs(mins1-mins2);
-printf("%d %d",hours3,mins3);
-	return 0;
-}
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+if(b>60, d>60):
+ print(a-c, b-d)
