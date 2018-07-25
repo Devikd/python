@@ -1,0 +1,5 @@
+print()
+print()
+a=input()
+list=a.split(" ")
+print(len(list))
