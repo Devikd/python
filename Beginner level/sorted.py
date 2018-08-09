@@ -1,8 +1,8 @@
-a=list()
+b=list()
 n=input()
 for i in range(int(n)):
-  b=input()
-  a.append(int(b))
-print(a)
-d=sorted(a)
+  a=input()
+  b.append(int(a))
+print(b)
+d=sorted(b)
 print(d)
