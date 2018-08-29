@@ -1,24 +1,24 @@
 #include<stdio.h>
 int main()
 {
-int i,j,a[20],v,n;
+int i,j,b[20],v,n;
 scanf("%d",&n);
 for(i=0;i<n;i++)
 {
-scanf("%d",&a[i]);
+scanf("%d",&b[i]);
 }
 for(i=0;i<n;i++)
 {
 for(j=i+1;j<n;j++)
 {
-if(a[i]>a[j])
+if(b[i]>b[j])
 {
-v=a[i];
-a[i]=a[j];
-a[j]=v;
+v=b[i];
+b[i]=b[j];
+b[j]=v;
 }
 }
 }
-printf("%d",a[n-1]);
+printf("%d",b[n-1]);
 return 0;
 }
